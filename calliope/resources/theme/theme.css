@@ -12,7 +12,7 @@ Tags: entertainment,food-and-drink,portfolio,one-column,two-columns,right-sideba
 Version: @@build@@
 Text Domain: calliope
 
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.6
 
 */
@@ -4742,7 +4742,6 @@ pre {
 }
 
 #colibri .comment-respond .comment-reply-title {
-  font-family: Open Sans;
   font-weight: 600;
   font-size: 1.25em;
   color: black;
@@ -7596,6 +7595,8 @@ body {
 
 .shape-layer {
   z-index: 2;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .overlay-image-layer {
@@ -7688,6 +7689,8 @@ body {
 
 .shape-layer {
   z-index: 2;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .overlay-image-layer {
@@ -9037,7 +9040,7 @@ hr + h2:before {
 }
 
 .wp-block-latest-comments .wp-block-latest-comments__comment-meta {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-date {
